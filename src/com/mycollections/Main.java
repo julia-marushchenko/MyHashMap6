@@ -24,16 +24,16 @@ public class Main {
         myMap.put(9, "Camillen");
         myMap.put(11, "Schwarzkopf");
 
-        // Printing values of myMap .
-        System.out.println(myMap); // Output:
+        // Printing values of myMap.
+        System.out.println(myMap); // Output: {3=Dior, 4=Chanel, 8=Nivea, 9=Camillen, 11=Schwarzkopf}
 
         // Get.
-        System.out.println("Number 8 is " + myMap.get(8)); // Output:
-        System.out.println("Number 11 is " + myMap.get(11)); // Output:
+        System.out.println("Number 8 is " + myMap.get(8)); // Output: Number 8 is Nivea
+        System.out.println("Number 11 is " + myMap.get(11)); // Output: Number 11 is Schwarzkopf
 
         // Check if key value present or not.
-        System.out.println("Key 4 is present: " + myMap.containsKey(4)); // Output:
-        System.out.println("Key 9 is present: " + myMap.containsKey(9)); // Output:
+        System.out.println("Key 4 is present: " + myMap.containsKey(4)); // Output: Key 4 is present: true
+        System.out.println("Key 9 is present: " + myMap.containsKey(9)); // Output: Key 9 is present: true
 
         System.out.println("All elements: ");
         // Iterating through population HashMap.
